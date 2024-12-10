@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  font-family: "Montserrat","sans-serif";
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root{
+  width: 100%;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wOF8xLWtzaDZtemEzLmpwZw.jpg")  ; 
+ 
+  background-size: 100%;
+}
+.currency-convertor{
+  margin: 0 auto ;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px 15px;
+  border-radius: 8px;
+  max-width: 410px;
+  backdrop-filter: blur(30px);
+  border: 1px solid white;
+  box-shadow: 0px 8px 32px rgba(2, 7, 40, 9);
+  
+}
+.currency-title{
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.currency-convertor .convertor-form{
+  margin-top: 45px;
+}
+.form-group .form-label{
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 9px;
+}
+
+.form-group{
+  display: flex;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+.form-input{
+  min-height: 49px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+  color: #fff;
+  padding: 0 5px;
+  font-weight: 500;
+  backdrop-filter: blur(30px);
+
+}
+
+.form-group-currency{
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.currency-select{
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  backdrop-filter: blur(30px);
+ padding: 0px 10px;
+ min-height: 45px;
+}
+.currency-select img{
+  width: 25px;
+}
+.currency-dropdown{
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+  padding: 0px 10px 0px 5px ;
+  font-size: 16px;
+
+}
+.dropbutton {
+  color: #000;
+  font-weight: 500;
+
+ }
+ .swap-icon{
+  height: 40px;
+  width: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+   margin-top: 20px;
+
+ }
+
+.swap-icon:hover{
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.submit-button{
+  width: 100% ;
+  min-height: 53px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+  
+}
+.submit-button:hover{
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.exchange-result{
+  color: #fff;
+  text-align: center;
+  min-height: 35px;
+  padding: 20px 0px;
+  margin-top: 25px;
+  background: rgba(255, 255, 255, 0.15);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Loading{
+  opacity: 0.8;
+  pointer-events: none;
+}
